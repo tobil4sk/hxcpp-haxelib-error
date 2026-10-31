@@ -12,7 +12,6 @@ jobs:
 
     - run: |
         haxelib install hxcpp 4.0.8 --quiet
-        haxelib install haxelib 3.3.0 --quiet
 
     - run: |
         haxelib dev somelib $pwd\lib
