@@ -10,6 +10,8 @@ jobs:
       with:
         haxe-version: 3.4.7
 
-    - run: haxelib install hxcpp 4.0.8 --quiet
+    - run: |
+        haxelib install hxcpp 4.0.8 --quiet
+        haxelib install haxelib 3.3.0 --quiet
     - run: haxe compile.hxml
 
