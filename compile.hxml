@@ -1,3 +1,8 @@
--lib somelib
--cpp bin
-Main
+-cp src
+-main Main
+--cpp bin/cpp
+
+ -D dll_link
+
+-D HXCPP_M64
+-D HXCPP-DEBUGGER
